@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 from pytesseract import Output
 
-pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "pathway to here"
 myconfig = r"--psm 11 --oem 3"
 img = cv2.imread("logo.png")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
